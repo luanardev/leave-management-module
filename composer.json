@@ -1,0 +1,26 @@
+{
+    "name": "luanardev/leave-management-module",
+    "type": "laravel-module",
+    "description": "Leave Management Module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Simpokolwe",
+            "email": "bsimpokolwe@luanar.ac.mw"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lumis\\LeaveManagement\\Providers\\LeaveManagementServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lumis\\LeaveManagement\\": ""
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Leave Management",
+    "group": "admin",
+    "url": "leave_management",
+    "icon": "fa fa-briefcase",
+    "color": "#17a2b8",
+    "background": "rgba(22, 160, 133, 0.1)",
+    "permissions": [
+        "create-leave",
+        "read-leave",
+        "update-leave",
+        "delete-leave",
+        "approve-leave",
+        "manage-leave",
+        "execute-leave-settings"
+    ]
+}

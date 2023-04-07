@@ -1,0 +1,13 @@
+{
+    "name": "LeaveManagement",
+    "alias": "leavemanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 5,
+    "providers": [
+        "Lumis\\LeaveManagement\\Providers\\LeaveManagementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
